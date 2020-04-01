@@ -114,6 +114,31 @@
   color: #666666;
   text-align: left;
   max-width: 432px;
+  margin: 0;
+}
+
+.header__intro-menu .menu_btn {
+  padding-top: 50px;
+}
+
+.header__intro-menu .menu_btn .btn_header-active {
+  letter-spacing: 2px;
+  padding: 15px 40px;
+}
+
+.header__intro-menu .menu_btn .btn_header {
+  background-color: transparent;
+  color: #000;
+}
+
+.btn {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  color: #f1f1f1;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #18a3dd;
+  border-radius: 30px;
 }
 
 .container {

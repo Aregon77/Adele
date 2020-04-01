@@ -60,6 +60,20 @@
         text-align: left;
 
         max-width: 432px;
+
+        margin: 0;
+    }
+    .menu_btn{
+        padding-top: 50px;
+        .btn_header-active{
+            letter-spacing: 2px;
+            padding: 15px 40px;
+        }
+        .btn_header{
+            background-color:transparent;
+            color: #000;
+            
+        }
     }
 }
 
