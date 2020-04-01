@@ -3,7 +3,7 @@
 }
 
 .header__intro-menu{
-    padding-top: 113px;
+    padding-top: 110px;
     .menu-title{
         margin-bottom: 57px;
         position: relative;
@@ -72,8 +72,31 @@
         .btn_header{
             background-color:transparent;
             color: #000;
-            
+
+            position: relative;
+            &:after{
+                display: block;
+                content:url(../../img/header/btn.png);
+                position: absolute;
+                top: 9px;
+                right: -14px;
+            }
         }
     }
+}
+
+.header__intro-picture{
+    position: relative;
+        z-index: 100;
+        &::after{
+            display: block;
+            content:url(../../img/header/back.png);
+
+            position: absolute;
+            top:37%;
+            right: -50%;
+
+            z-index: 1;
+        }
 }
 
