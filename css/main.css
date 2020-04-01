@@ -59,4 +59,9 @@
   top: 10px;
   left: 0;
 }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
 /*# sourceMappingURL=main.css.map */
