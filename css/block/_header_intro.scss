@@ -87,16 +87,20 @@
 
 .header__intro-picture{
     position: relative;
-        z-index: 100;
+    z-index: 100;
         &::after{
             display: block;
             content:url(../../img/header/back.png);
 
             position: absolute;
             top:37%;
-            right: -50%;
+            right: -40%;
 
             z-index: 1;
         }
+    img{
+        position: relative;
+        z-index: 2;
+    }
 }
 
