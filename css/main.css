@@ -173,6 +173,7 @@
 .info {
   background: url(../../img/info/back.jpg) no-repeat center;
   background-size: cover;
+  margin-bottom: 115px;
 }
 
 .info__inner {
@@ -185,7 +186,6 @@
 }
 
 .info__inner-picture img {
-  width: 100%;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   position: absolute;
