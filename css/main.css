@@ -236,6 +236,71 @@
   text-transform: capitalize;
 }
 
+.fetures__intro {
+  padding-top: 70px;
+  padding-bottom: 120px;
+}
+
+.article__title {
+  padding-top: 60px;
+}
+
+.article__title h1 {
+  font-size: 20px;
+  font-family: "Raleway",sans-serif;
+  color: #333740;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 30px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.article__title h1:after {
+  display: block;
+  content: "";
+  border-radius: 2px;
+  background-color: #18a3dd;
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.article__title p {
+  font-family: "Lato",serif;
+  color: #5b5f64;
+  font-size: 16px;
+  text-align: right;
+  max-width: 260px;
+  margin-left: auto;
+  margin-bottom: 0;
+  line-height: 25px;
+}
+
+.fetures__picture img {
+  display: block;
+  margin: auto;
+}
+
+.article__title-left h1 {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.article__title-left h1:after {
+  left: 0;
+}
+
+.article__title-left p {
+  text-align: left;
+  margin-right: auto;
+  margin-left: 0;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
