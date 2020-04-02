@@ -240,4 +240,39 @@
   width: 100%;
   max-width: 1200px;
 }
+
+.main__title {
+  text-align: center;
+}
+
+.main__title h1 {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  color: #333740;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.main__title h1 span {
+  font-weight: 300;
+  padding-left: 37px;
+  position: relative;
+}
+
+.main__title h1 span:before {
+  display: block;
+  content: "";
+  background-color: #18a3dd;
+  width: 1px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 9%;
+}
+
+.main__title p {
+  font-size: 16px;
+  font-family: "Lato",sans-serif;
+  color: #83888f;
+}
 /*# sourceMappingURL=main.css.map */
