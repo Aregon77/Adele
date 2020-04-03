@@ -1,5 +1,10 @@
+.facts{
+    padding-bottom: 115px;
+}
+
 .facts__inner{
     padding-top: 80px;
+    align-items: start!important;
 }
 
 .facts_ingred-title{
@@ -77,4 +82,26 @@
     justify-content: space-between;
 
     padding: 11px 40px;
+}
+
+.facts__descrip-title{
+    p{
+        max-width: 340px;
+        padding-top: 30px;
+    }
+    h1{
+        
+        font-size: 15px;
+        color: rgb(51, 55, 64);
+        text-transform: uppercase;
+        line-height: 1.5;
+        text-align: left;
+
+        font-weight: 700;
+
+        padding-bottom: 0;
+        span{
+            display: block;
+        }
+    }
 }

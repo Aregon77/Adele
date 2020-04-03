@@ -279,6 +279,7 @@
   margin-left: auto;
   margin-bottom: 0;
   line-height: 25px;
+  padding-top: 16px;
 }
 
 .fetures__picture img {
@@ -301,8 +302,15 @@
   margin-left: 0;
 }
 
+.facts {
+  padding-bottom: 115px;
+}
+
 .facts__inner {
   padding-top: 80px;
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: start !important;
 }
 
 .facts_ingred-title {
@@ -392,6 +400,25 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 11px 40px;
+}
+
+.facts__descrip-title p {
+  max-width: 340px;
+  padding-top: 30px;
+}
+
+.facts__descrip-title h1 {
+  font-size: 15px;
+  color: #333740;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 700;
+  padding-bottom: 0;
+}
+
+.facts__descrip-title h1 span {
+  display: block;
 }
 
 h1, h2, h3, h4, h5, h6, p {
