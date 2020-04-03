@@ -342,6 +342,10 @@
   text-align: right;
 }
 
+.facts__ingred-list {
+  padding-bottom: 50px;
+}
+
 .facts__ingred-list ul {
   padding: 0;
   list-style: none;
@@ -378,6 +382,16 @@
   padding: 15px 10px;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.btn-facts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 11px 40px;
 }
 
 h1, h2, h3, h4, h5, h6, p {

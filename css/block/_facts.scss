@@ -35,6 +35,7 @@
 }
 
 .facts__ingred-list{
+    padding-bottom: 50px;
     ul{
         padding: 0;
         list-style: none;
@@ -69,4 +70,11 @@
             }
         }
     }
+}
+
+.btn-facts{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 11px 40px;
 }
