@@ -301,6 +301,49 @@
   margin-left: 0;
 }
 
+.facts__inner {
+  padding-top: 80px;
+}
+
+.facts_ingred-title {
+  padding-bottom: 18px;
+  border-bottom: 5px solid #000;
+  margin-bottom: 30px;
+}
+
+.facts_ingred-title h2 {
+  font-size: 25px;
+  font-family: "Lato",serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #333740;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.facts_ingred-title h2 span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333740;
+}
+
+.facts_ingred-title h2 span:after {
+  display: block;
+  content: "(MG)";
+  font-weight: 300;
+  text-align: right;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
