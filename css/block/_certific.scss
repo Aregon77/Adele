@@ -1,0 +1,44 @@
+.certific{
+    background-color:#f1f4f5;
+    padding-bottom: 75px;
+}
+
+
+.certific__title{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+    h3 {
+        font-size: 30px;
+        font-family: "Raleway", sans-serif;
+        color: rgb(51, 55, 64);
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 0.733;
+
+        padding-bottom: 25px;
+    }
+    p{
+        font-size: 16px;
+        font-family: "Lato", serif;
+        color: rgb(131, 136, 143);
+        line-height: 1.5;
+    }
+         
+}
+
+.certific__pic{
+    text-align: center;
+    position: relative;
+
+    margin-bottom: 20px;
+
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:not(:last-child){
+        border-right: 1px solid #e0e0e0;
+    }
+}

@@ -421,6 +421,54 @@
   display: block;
 }
 
+.certific {
+  background-color: #f1f4f5;
+  padding-bottom: 75px;
+}
+
+.certific__title {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.certific__title h3 {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  color: #333740;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.733;
+  padding-bottom: 25px;
+}
+
+.certific__title p {
+  font-size: 16px;
+  font-family: "Lato", serif;
+  color: #83888f;
+  line-height: 1.5;
+}
+
+.certific__pic {
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.certific__pic:not(:last-child) {
+  border-right: 1px solid #e0e0e0;
+}
+
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
