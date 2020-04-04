@@ -469,6 +469,52 @@
   border-right: 1px solid #e0e0e0;
 }
 
+.buy {
+  padding-top: 120px;
+}
+
+.buy__picture {
+  position: relative;
+}
+
+.buy__picture:after {
+  display: block;
+  content: url(../../img/buy/buyBack.png);
+  position: absolute;
+  top: 32%;
+  left: -15%;
+  z-index: -1;
+}
+
+.buy__title h1 {
+  font-size: 30px;
+  padding-bottom: 0;
+  line-height: 1.5;
+  color: #333740;
+}
+
+.buy__title h1:after {
+  height: 77%;
+}
+
+.buy__title h1 span {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-size: 20px;
+  display: block;
+}
+
+.buy__title P {
+  max-width: 350px;
+  line-height: 1.5;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.buy__title .btn-buy {
+  padding: 13px 40px;
+}
+
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
